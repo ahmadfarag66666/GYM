@@ -19,7 +19,7 @@
 }
 #navbar .logo{
     
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     
     
 }
@@ -32,13 +32,13 @@
 
 #about .about-content img{
   width: 100%; 
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0 0;/*   فوق  واحد ريم  واليمين صفر والبوتوم صفر والشمال صفر *//**/
 }
 
                  /*programs*/
 
 #programs .boxes{
-    display: block;
+    flex-direction: column;
    
 }
 /*trainers*/
@@ -49,8 +49,9 @@
 /*contact*/
 #contact{
     /*background-color: bisque;*/
+    /*display: block;*/   /*or*/
     flex-direction: column;
-    height: 1000px;
+    height: 1200px;
     }
 
  

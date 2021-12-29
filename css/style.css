@@ -76,8 +76,8 @@ html,body{
     
     
 }
-.box-shadow{
-    box-shadow: 0 0 10px #252a34;
+.box-shadow{                        /*minuts 9:35   part2*/
+    box-shadow: 0 0 2px #252a34;
 }
 /*section navbar*/
 #navbar{
@@ -113,9 +113,11 @@ html,body{
     
 }
 #showcase{     /*minuts 34 part1*/
-     background: #252A34 url(../img/640_-960.jpg) no-repeat center/cover;
+    background: #252A34 url(../img/640_427.jpg) no-repeat center
+    center/cover;
    height: 100vh;
     color: #fff;
+     
 }
 #showcase .showcase-content{   /*minuts 36 part1*/
     
@@ -126,7 +128,7 @@ html,body{
     height: 100%;
     padding: 1rem;   /*مش شغاله*/   /*minuts 37  last part1*/
     /*overlay*/
-    background-color: rgba(100,100,100,0.9);
+   background-color: rgba(100,100,100,0.9);
    
     
 }
@@ -142,19 +144,19 @@ html,body{
 
 }
 #about .about-content div,
-#about .about-content img{   /*minuts 8:49  last part2*/
+#about .about-content img{   /*minuts 8:49   part2*/
     flex: 1;
     }
  #about .about-content img{   
     width: 50%;
     margin-left: 1.5rem;
-    border: 5px dashed #fff;
+    border: 5px dashed #fff;/*minuts 9:35   part2*/
     }
 /*****************************/
              /*minuts 12:12  last part2*/
               /*section cta*/
 #cta{
-    background: url(../img/2400_1600.jpg) no-repeat center/cover;   /*bottom/cover*/ /*top/cover*/
+    background: url(../img/2400_1600.jpg) no-repeat center center/cover;   /*bottom/cover*/ /*top/cover*/
     color: #fff;
 }
 
@@ -162,7 +164,7 @@ html,body{
     min-height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;   /*بيسنتر الكلام والايتم فى منتصف الديف*/
     align-items: center;   /*minuts 13  part2*/
     background-color: rgba(0,0,0,0.6);
     overflow:hidden;
@@ -273,9 +275,6 @@ html,body{
     outline: none;
 }
 
-#contact #map{                                 /*ereas*/
-  background-color: rgba(100,100,100,0.9);   /*ereas*/
-    }                                          /*ereas*/
 
 #contact .contact-us .form-group{
     display: flex;
